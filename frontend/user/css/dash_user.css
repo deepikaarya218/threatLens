@@ -1268,3 +1268,42 @@ body.dark-mode footer {
     background: #0f111b;
     border-top-color: #292e3e;
 }
+
+.analyze-btn {
+    margin: 18px auto 0;
+    width: 240px;
+    height: 52px;
+    padding: 0 24px;
+
+    border: 1px solid rgba(112, 128, 255, 0.45);
+    border-radius: 10px;
+
+    background: #6879ed;
+    color: #fff;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.analyze-btn:hover:not(:disabled) {
+    background: #7484f2;
+    transform: translateY(-1px);
+}
+
+.analyze-btn:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+}
+
+.analyze-btn svg {
+    width: 18px;
+    height: 18px;
+}

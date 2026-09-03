@@ -146,6 +146,11 @@
                 Choose .EML file
             </button>
 
+            <button type="button" id="analyzeBtn" class="analyze-btn" disabled>
+                <i data-lucide="scan-search"></i>
+                Analyze Email
+            </button>
+
                 <!-- Pure CSS hidden file input (No html hidden attribute conflict) -->
                 <input
                     type="file"
@@ -162,7 +167,7 @@
 
             </div>
 
-            <div class="help-link" id="helpBtn" style="cursor: pointer;">
+            <div class="help-link" id="emailhelpBtn" style="cursor: pointer;">
                 <i data-lucide="circle-help"></i>
                 How do I get an .eml file?
             </div>
@@ -243,8 +248,8 @@
 
     </main>
 
-    <script src="js/dash_user.js"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="js/dash_user.js"></script>
     <script src="js/header.js"></script>
 
 </body>
